@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arina Shmodina">
+    <meta name="description" content="About Me">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>Document</title>
+    <title>About Me</title>
 </head>
 
 <body>
@@ -16,70 +18,80 @@
         </div>
         <nav class="header__nav">
             <ul class="header__list">
-                <li class="header__list-item"><a href="">About Me</a></li>
-                <li class="header__list-item"><a href="">Skills</a></li>
-                <li class="header__list-item"><a href="">Projects</a></li>
-                <li class="header__list-item"><a href="">Experience</a></li>
+                <li class="header__list-item"><a href="#about-me">About Me</a></li>
+                <li class="header__list-item"><a href="#skills">Skills</a></li>
+                <li class="header__list-item"><a href="#projects">Projects</a></li>
+                <li class="header__list-item"><a href="#experience">Experience</a></li>
             </ul>
         </nav>
         <button class="header__button">contact</button>
     </header>
 
     <main class="main">
-        <section class="main__me">
-            <article class="main__content">
-                <h1 class="main__h1">about me</h1>
-                <div>
+        <section class="main__section main__me">
+            <article class="me__content">
+                <header class="main__header">
+                    <h1 class="main__h1">about me</h1>
                     <h2 class="main__h2">Hi, <span>I'm John</span>, a beginner web developer.</h2>
                     <p class="main__text">Since 2025, I have been passionate about web technologies, studying at an IT
                         college and studying
                         all modern trends and directions of development of the web industry.</p>
-                </div>
-                <address>
-                    <p class="main__p-address">Check out my</p>
-                    <ul class="main__ul">
-                        <li class="main__li"><a href=""><img src="./images/svg/gh.svg" alt=""></a></li>
-                        <li class="main__li"><a href=""><img src="./images/svg/tg.svg" alt=""></a></li>
+                </header>
+                <address class="me__adrs">
+                    <p>Check out my</p>
+                    <ul class="me__adrs-list">
+                        <li class="me__adrs-list-item"><a href=""><img src="./images/svg/gh.svg" alt=""></a></li>
+                        <li class="me__adrs-list-item"><a href=""><img src="./images/svg/tg.svg" alt=""></a></li>
                     </ul>
                 </address>
             </article>
-            <picture><img src="./images/img/face.jpg" alt="face" class="main__img"></picture>
+            <picture class="main__img"><img src="./images/img/face.jpg" alt="face"></picture>
         </section>
 
-        <section class="skills">
-            <h1 class="main__h1">skills</h1>
-            <h2 class="main__h2">My Skills</h2>
-            <article>
+        <section class="main__section skills">
+            <header class="main__header">
+                <h1 class="main__h1">skills</h1>
+                <h2 class="main__h2">My Skills</h2>
+                <p class="main__text">I am constantly learning and developing, expanding my professional and social
+                    skills.</p>
+            </header>
+            <article class="skills__article">
                 <ul class="skills__list-skills">
-                    <li class="skills__list-item">1</li>
-                    <li class="skills__list-item">2</li>
-                    <li class="skills__list-item">3</li>
-                    <li class="skills__list-item">4</li>
-                    <li class="skills__list-item">5</li>
-                    <li class="skills__list-item">6</li>
-                    <li class="skills__list-item">7</li>
+                    <li class="skills__list-item">HTML</li>
+                    <li class="skills__list-item">CSS</li>
+                    <li class="skills__list-item">JavaScript</li>
+                    <li class="skills__list-item">VS Code</li>
+                    <li class="skills__list-item">GIT</li>
+                    <li class="skills__list-item">Figma</li>
+                    <li class="skills__list-item">Python</li>
+                    <li class="skills__list-item">Rvlxjxf</li>
+                    <li class="skills__list-item">Ofgnmsdfg</li>
+                    <li class="skills__list-item">RGdD</li>
                 </ul>
             </article>
-            <article>
+            <article class="skills__article">
                 <h3>Developer Skills</h3>
                 <ul class="skills__d-list">
-                    <li class="skills_d-list-item">HTML</li>
-                    <li class="skills_d-list-item">CSS3</li>
-                    <li class="skills_d-list-item">JavaScript</li>
+                    <li class="skills__d-list-item">HTML</li>
+                    <li class="skills__d-list-item">CSS3</li>
+                    <li class="skills__d-list-item">JavaScript</li>
                 </ul>
             </article>
         </section>
 
-        <section class="projects">
-            <h1 class="main__h1">projects</h1>
-            <h2 class="main__h2">My Portfolio</h2>
-            <p class="main__text">My best works during my studies and participation in open web community projects.</p>
+        <section class="main__section projects">
+            <header class="main__header">
+                <h1 class="main__h1">projects</h1>
+                <h2 class="main__h2">My Portfolio</h2>
+                <p class="main__text">My best works during my studies and participation in open web community projects.
+                </p>
+            </header>
             <ul class="projects__cards">
                 <li class="projects__cards-item">
                     <article class="project-card">
                         <header class="projects__card-header">
                             <h3 class="projects__card-h3">category</h3>
-                            <p class="projects__card-p">Cool two-line headline</p>
+                            <p class="projects__card-text">Cool two-line headline</p>
                         </header>
                         <button class="projects__card-button">read more</button>
                     </article>
@@ -88,7 +100,7 @@
                     <article class="project-card">
                         <header class="projects__card-header">
                             <h3 class="projects__card-h3">category</h3>
-                            <p class="projects__card-p">Cool two-line headline</p>
+                            <p class="projects__card-text">Cool two-line headline</p>
                         </header>
                         <button class="projects__card-button">read more</button>
                     </article>
@@ -97,7 +109,7 @@
                     <article class="project-card">
                         <header class="projects__card-header">
                             <h3 class="projects__card-h3">category</h3>
-                            <p class="projects__card-p">Cool two-line headline</p>
+                            <p class="projects__card-text">Cool two-line headline</p>
                         </header>
                         <button class="projects__card-button">read more</button>
                     </article>
@@ -106,7 +118,7 @@
                     <article class="project-card">
                         <header class="projects__card-header">
                             <h3 class="projects__card-h3">category</h3>
-                            <p class="projects__card-p">Cool two-line headline</p>
+                            <p class="projects__card-text">Cool two-line headline</p>
                         </header>
                         <button class="projects__card-button">read more</button>
                     </article>
@@ -115,7 +127,7 @@
                     <article class="project-card">
                         <header class="projects__card-header">
                             <h3 class="projects__card-h3">category</h3>
-                            <p class="projects__card-p">Cool two-line headline</p>
+                            <p class="projects__card-text">Cool two-line headline</p>
                         </header>
                         <button class="projects__card-button">read more</button>
                     </article>
@@ -124,7 +136,7 @@
                     <article class="project-card">
                         <header class="projects__card-header">
                             <h3 class="projects__card-h3">category</h3>
-                            <p class="projects__card-p">Cool two-line headline</p>
+                            <p class="projects__card-text">Cool two-line headline</p>
                         </header>
                         <button class="projects__card-button">read more</button>
                     </article>
@@ -132,11 +144,13 @@
             </ul>
         </section>
 
-        <section class="experience">
-            <h1 class="main__h1">experience</h1>
-            <h2 class="main__h2">Experience</h2>
-            <p class="main__text">My professional journey in learning and self-development as a beginner web engineer
-            </p>
+        <section class="main__section experience">
+            <header class="main__header">
+                <h1 class="main__h1">experience</h1>
+                <h2 class="main__h2">Experience</h2>
+                <p class="main__text">My professional journey in learning and self-development as a beginner web
+                    engineer</p>
+            </header>
             <article class="exprerience__card">
                 <h3 class="exprerience__h3">SOME EXPERIENCE 1</h3>
                 <p class="main__text"></p>
@@ -159,72 +173,76 @@
             </article>
         </section>
 
-        <section class="contacts">
-            <header class="main-header">
+        <section class="main__section contacts">
+            <header class="main__header">
                 <h1 class="main__h1">contacts</h1>
                 <h2 class="main__h2">Contact With Me</h2>
                 <p class="main__text">If you are interested in cooperation, I will be glad to receive your proposals and
                     work on joint projects.</p>
             </header>
-            <aside class="contacts-aside">
-                <address>
-                    <ul>
-                        <li>
-                            <span>Location</span>
-                            <p>Moscow, Russia</p>
-                        </li>
-                        <li>
-                            <span>Email</span>
-                            <p>john@example.com</p>
-                        </li>
-                        <li>
-                            <span>Phone</span>
-                            <p>+7 987 123-45-60</p>
-                        </li>
-                    </ul>
-                </address>
-            </aside>
-            <form action="" class="form">
-                <div class="form__group">
-                    <label for="name" class="form__label">You Name</label>
-                    <input type="text" id="name" class="form__input" placeholder="Please introduce yourself" required
-                        minlength="3" />
-                    <span class="form__description">Minimum number of characters - 3</span>
-                </div>
-                <div class="form__group">
-                    <label for="email" class="form__label">Your Email</label>
-                    <input type="email" id="email" class="form__input" placeholder="Please enter your email address"
-                        required />
-                    <span class="form__description">Address format - test@example.com</span>
-                </div>
-                <div class="form__group">
-                    <label for="comment" class="form__label">Message</label>
-                    <textarea id="comment" name="comment" placeholder="Please enter your message" maxlength="500"
-                        class="form__comment"></textarea>
-                    <span class="form__description">Опционально, до 500 символов</span>
-                </div>
-                <div>
-                    <button class="form__button"></button>
-                    <span>By clicking the submit button You confirm my consent to the processing of <a href="">personal
-                            data</a></span>
-                </div>
-            </form>
+            <div class="contacts__content">
+                <aside class="contacts__aside">
+                    <address>
+                        <ul>
+                            <li>
+                                <span class="contacts__span">Location</span>
+                                <p class="main__text">Moscow, Russia</p>
+                            </li>
+                            <li>
+                                <span class="contacts__span">Email</span>
+                                <p class="main__text">john@example.com</p>
+                            </li>
+                            <li>
+                                <span class="contacts__span">Phone</span>
+                                <p class="main__text">+7 987 123-45-60</p>
+                            </li>
+                        </ul>
+                    </address>
+                </aside>
+                <form action="" class="form">
+                    <div class="form__group">
+                        <label for="name" class="form__label">You Name</label>
+                        <input type="text" id="name" class="form__input" placeholder="Please introduce yourself"
+                            required minlength="3" />
+                        <span class="form__description">Minimum number of characters - 3</span>
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="form__label">Your Email</label>
+                        <input type="email" id="email" class="form__input" placeholder="Please enter your email address"
+                            required />
+                        <span class="form__description">Address format - test@example.com</span>
+                    </div>
+                    <div class="form__group">
+                        <label for="comment" class="form__label">Message</label>
+                        <textarea id="comment" name="comment" placeholder="Please enter your message" maxlength="500"
+                            class="form__comment"></textarea>
+                        <span class="form__description">Please enter your message</span>
+                    </div>
+                    <div>
+                        <button class="form__button">submit</button>
+                        <span>By clicking the submit button You confirm my consent to the processing of <a
+                                href="#">personal
+                                data</a></span>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <nav class="footer__nav">
-            <ul class="header__list">
-                <li class="footer__list-item"><a href="">About Me</a></li>
-                <li class="footer__list-item"><a href="">Skills</a></li>
-                <li class="footer__list-item"><a href="">Projects</a></li>
-                <li class="footer__list-item"><a href="">Experience</a></li>
+            <ul class="footer__list">
+                <li class="footer__list-item"><a href="#about-me">About Me</a></li>
+                <li class="footer__list-item"><a href="#skills">Skills</a></li>
+                <li class="footer__list-item"><a href="#projects">Projects</a></li>
+                <li class="footer__list-item"><a href="#experience">Experience</a></li>
             </ul>
         </nav>
-        <aside>
-            <p>2025-2026 IT HEXLET</p>
-            <p>This project is a practical project for mastering the structure and style of a web page.</p>
+        <aside class="footer_aside">
+            <p class="footer__text-1">2025-2026 IT HEXLET</p>
+            <p class="footer__text-2">This project is a practical project for mastering the structure and style of a web
+                page.</p>
         </aside>
-        <a href="">Back to top</a>
+        <button class="footer__button">Back to top</button>
     </footer>
 </body>
 

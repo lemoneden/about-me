@@ -4,4 +4,5 @@
     border: none;
     color: var(--main-light-color);
     border-radius: var(--border-radius-button);
+    font-size: var(--text-size-nav);
 }

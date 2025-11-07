@@ -1,0 +1,8 @@
+.main__h1 {
+    font-size: var(--main-h1-size);
+    color: var(--main-text-color);
+    opacity: 25%;
+    text-transform: uppercase;
+    letter-spacing: 30%;
+    margin-block-end: var(--main-h1-margin);
+}

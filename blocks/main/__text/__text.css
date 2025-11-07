@@ -1,0 +1,4 @@
+.main__text {
+    font-size: var(--main-text-size);
+    color: var(--main-text-color);
+}

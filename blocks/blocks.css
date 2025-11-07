@@ -1,4 +1,5 @@
 @import url(./body/body.css);
+@import url(./main/__h1/__h1.css);
 
 /*header*/
 @import url(../blocks/header/header.css);
@@ -7,5 +8,8 @@
 @import url(./header/__list-item/__list-item.css);
 
 /*main*/
+
+/*about-me*/
+
 
 /*footer*/

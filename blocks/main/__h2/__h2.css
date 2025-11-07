@@ -1,0 +1,5 @@
+.main__h2 {
+    font-size: var(--main-h2-size);
+    font-weight: bold;
+    margin-block-end: var(--main-h2-margin);
+}

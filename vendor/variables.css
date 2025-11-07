@@ -7,6 +7,18 @@
     --main-light-text-color: #f5f5f5;
     --main-add-color: #ffda74;
     --main-black-color: #252525;
+    
+    --max-width: 1440px;
+    --main-gap: clamp(0.625rem, -0.057rem + 3.41vw, 2.5rem);
+
+    --text-size-nav: 20px;
+
+    /*header*/
+    --header-width: clamp(50rem, 40.909rem + 45.45vw, 75rem);
+
+    /*button*/
+    --padding-button: clamp(0.313rem, 0.108rem + 1.02vw, 0.875rem);
+    --border-radius-button: 5px;
 }
 
 /*dark*/

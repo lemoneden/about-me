@@ -1,0 +1,7 @@
+.header__button {
+    background-color: var(--main-accent-color);
+    padding: var(--padding-button);
+    border: none;
+    color: var(--main-light-color);
+    border-radius: var(--border-radius-button);
+}

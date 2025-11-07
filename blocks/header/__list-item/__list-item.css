@@ -1,0 +1,5 @@
+.header__list-item {
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-size: var(--text-size-nav);
+}

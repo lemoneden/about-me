@@ -1,0 +1,6 @@
+.main__header-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-block-end: var(--main-header-margin-block);
+}

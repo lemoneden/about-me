@@ -1,0 +1,7 @@
+.main__me {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 200px;
+    background-color: var(--main-light-color);
+}

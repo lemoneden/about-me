@@ -1,0 +1,5 @@
+.me__line-text {
+    color: var(--main-text-color);
+    font-size: var(--main-text-size);
+    opacity: 25%;
+}

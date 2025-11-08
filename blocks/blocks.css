@@ -1,5 +1,10 @@
 @import url(./body/body.css);
 @import url(./main/__h1/__h1.css);
+@import url(./main/__h2/__h2.css);
+@import url(./main/__text/__text.css);
+@import url(./main/__section/__section.css);
+@import url(./main/__header-center/__header-center.css);
+@import url(./main/__header-left/__header-left.css);
 
 /*header*/
 @import url(../blocks/header/header.css);
@@ -8,8 +13,19 @@
 @import url(./header/__list-item/__list-item.css);
 
 /*main*/
+@import url(./main/about-me/__img/__img.css);
+@import url(./main/about-me/__content/__content.css);
+@import url(./main/about-me/main__me/main__me.css);
 
 /*about-me*/
+@import url(./main/about-me/__bg-img/__bg-img.css);
+@import url(./main/about-me/__main-img/__main-img.css);
+@import url(./main/about-me/__img-container/__img-container.css);
+@import url(./main/about-me/__container-main-img/__container-main-img.css);
 
+@import url(./main/about-me/__line/__line.css);
+@import url(./main/about-me/__line-text/__line-text.css);
+@import url(./main/about-me/__line-container/__line-container.css);
+@import url(./main/about-me/__container/__container.css);
 
 /*footer*/

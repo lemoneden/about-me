@@ -1,8 +1,14 @@
 .body {
     margin: 0 auto;
-    max-width: var(--max-width);
-    display: flex;
-    justify-content: center;
+    /* max-width: var(--max-width); */
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
     padding-inline: var(--main-padding);
     background-color: var(--main-light-color);
+}
+
+.body > .main__section, .header, .footer {
+    max-width: var(--max-width);
 }

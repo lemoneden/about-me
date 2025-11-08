@@ -1,0 +1,6 @@
+.main__header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-block-end: var(--main-header-margin-block);
+}

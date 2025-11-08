@@ -8,15 +8,17 @@
     --main-add-color: #ffda74;
     --main-black-color: #252525;
     
-    --max-width: 1440px;
+    --max-width: 1200px;
     --main-gap: clamp(0.625rem, -0.057rem + 3.41vw, 2.5rem);
     --main-padding: clamp(3.75rem, 2.386rem + 6.82vw, 7.5rem);
+    --main-margin-block: clamp(2.5rem, 1.591rem + 4.55vw, 5rem);
     --main-h1-size: clamp(0.625rem, 0.534rem + 0.45vw, 0.875rem);
     --main-h2-size: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
     --main-h3-size: clamp(1.125rem, 0.989rem + 0.68vw, 1.5rem);
     --main-text-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
     --main-h1-margin: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
     --main-h2-margin: clamp(0.625rem, 0.398rem + 1.14vw, 1.25rem);
+    --main-header-margin-block: clamp(1.875rem, 1.193rem + 3.41vw, 3.75rem);
 
     --text-size-nav: clamp(0.625rem, 0.398rem + 1.14vw, 1.25rem);
 

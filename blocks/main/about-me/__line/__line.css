@@ -1,0 +1,7 @@
+.me__line {
+    width: 215px;
+    height: 1px;
+    background-color: var(--main-text-color);
+    opacity: 25%;
+    border-radius: 5px;
+}

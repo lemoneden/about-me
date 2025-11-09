@@ -1,0 +1,7 @@
+.projects__card-text {
+    color: var(--main-light-color);
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-family: 'Bold';
+}

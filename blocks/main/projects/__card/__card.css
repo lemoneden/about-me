@@ -1,0 +1,12 @@
+.project__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../../../../images/img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 100%;
+    padding: 40px;
+}

@@ -3,6 +3,6 @@
     color: var(--main-text-color);
     opacity: 25%;
     text-transform: uppercase;
-    letter-spacing: 30%;
+    letter-spacing: 4px;
     margin-block-end: var(--main-h1-margin);
 }

@@ -1,0 +1,6 @@
+.skills {
+    background-color: var(--main-add-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -28,4 +28,15 @@
 @import url(./main/about-me/__line-container/__line-container.css);
 @import url(./main/about-me/__container/__container.css);
 
+/*skills*/
+@import url(./main/skills/skills.css);
+@import url(./main/skills/__content/__content.css);
+@import url(./main/skills/__list-skills/__list-skills.css);
+@import url(./main/skills/__list-item.css/__list-item.css);
+@import url(./main/skills/__d-list/__d-list.css);
+@import url(./main/skills/__d-list-item/__d-list-item.css);
+@import url(./main/skills/__line/__line.css);
+@import url(./main/skills/__h3/__h3.css);
+@import url(./main/skills/__article/__article.css);
+
 /*footer*/

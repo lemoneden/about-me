@@ -1,0 +1,9 @@
+.skills__line {
+    width: 400px;
+    height: 5px;
+    border-radius: 5px;
+    /* background: linear-gradient(to right, black, white); */
+    background: linear-gradient(to right,
+            #000 0%, #000 50%,
+            #fff 50%, #fff 100%);
+}

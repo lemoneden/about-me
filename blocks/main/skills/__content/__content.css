@@ -1,0 +1,8 @@
+.skills__content {
+    width: clamp(31.25rem, 24.432rem + 34.09vw, 50rem);
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}

@@ -1,0 +1,5 @@
+.skills__article {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

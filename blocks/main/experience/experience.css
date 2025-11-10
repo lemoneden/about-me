@@ -1,0 +1,6 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--main-add-color);
+}

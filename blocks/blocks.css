@@ -5,6 +5,7 @@
 @import url(./main/__section/__section.css);
 @import url(./main/__header-center/__header-center.css);
 @import url(./main/__header-left/__header-left.css);
+@import url(./main/__accent/__accent.css);
 
 /*header*/
 @import url(../blocks/header/header.css);
@@ -56,5 +57,11 @@
 @import url(./main/projects/medium/medium.css);
 @import url(./main/projects/large/large.css);
 
+/*exprerience*/
+@import url(./main/experience/experience.css);
+@import url(./main/experience/__cards/__cards.css);
+@import url(./main/experience/__card/__card.css);
+@import url(./main/experience/__header/__header.css);
+@import url(./main/experience/year/year.css);
 
 /*footer*/

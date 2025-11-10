@@ -1,0 +1,5 @@
+.year {
+    font-size: 100px;
+    font-family: 'Bold';
+    color: var(--main-accent-swap);
+}

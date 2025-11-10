@@ -7,6 +7,8 @@
     --main-light-text-color: #f5f5f5;
     --main-add-color: #ffda74;
     --main-black-color: #252525;
+    --main-black-opacity: rgb(27 27 27 / 25%);
+    --main-accent-swap: #1B1B1B;
     
     --max-width: 1200px;
     --main-gap: clamp(0.625rem, -0.057rem + 3.41vw, 2.5rem);

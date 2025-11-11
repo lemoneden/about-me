@@ -1,0 +1,6 @@
+.footer__button {
+    color: var(--main-add-color);
+    text-transform: uppercase;
+    font-family: 'Bold';
+    font-size: 14px;
+}

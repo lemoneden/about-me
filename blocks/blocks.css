@@ -84,3 +84,8 @@
 @import url(./main/contact/__send-span/__send-span.css);
 
 /*footer*/
+@import url(./footer/footer.css);
+@import url(./footer/__list/__list.css);
+@import url(./footer/__list-item/__list-item.css);
+@import url(./footer/__aside/__aside.css);
+@import url(./footer/__button/__button.css);

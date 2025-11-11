@@ -11,267 +11,286 @@
 </head>
 
 <body class="body">
-    <header class="header">
-        <div>
-            <input type="checkbox" name="theme" id="theme-switch">
-            <label for="theme-switch">🌙</label>
-        </div>
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li><a href="#about-me" class="header__list-item">About Me</a></li>
-                <li><a href="#skills" class="header__list-item">Skills</a></li>
-                <li><a href="#projects" class="header__list-item">Projects</a></li>
-                <li><a href="#experience" class="header__list-item">Experience</a></li>
-            </ul>
-        </nav>
-        <button class="header__button">contact</button>
-    </header>
+    <div class="baba">
+        <header class="header">
+            <div>
+                <input type="checkbox" name="theme" id="theme-switch">
+                <label for="theme-switch">🌙</label>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a href="#about-me" class="header__list-item">About Me</a></li>
+                    <li><a href="#skills" class="header__list-item">Skills</a></li>
+                    <li><a href="#projects" class="header__list-item">Projects</a></li>
+                    <li><a href="#experience" class="header__list-item">Experience</a></li>
+                </ul>
+            </nav>
+            <button class="header__button">contact</button>
+        </header>
+    </div>
 
     <main class="main">
-        <section class="main__section main__me">
-            <article class="me__content">
-                <header class="main__header-left">
-                    <h1 class="main__h1">about me</h1>
-                    <h2 class="main__h2">Hi, <span class="main__accent">I'm John</span>, a beginner web developer.</h2>
-                    <p class="main__text">Since 2025, I have been passionate about web technologies, studying at an IT
-                        college and studying
-                        all modern trends and directions of development of the web industry.</p>
+        <section class="main__section main__me" id="about-me">
+            <div class="baba">
+                <article class="me__content">
+                    <header class="main__header-left">
+                        <h1 class="main__h1">about me</h1>
+                        <h2 class="main__h2">Hi, <span class="main__accent">I'm John</span>, a beginner web developer.
+                        </h2>
+                        <p class="main__text">Since 2025, I have been passionate about web technologies, studying at an
+                            IT
+                            college and studying
+                            all modern trends and directions of development of the web industry.</p>
+                    </header>
+                    <address class="me__adrs">
+                        <p>Check out my</p>
+                        <ul class="me__adrs-list">
+                            <li class="me__adrs-list-item"><a href=""><img src="./images/svg/gh.svg" alt=""></a></li>
+                            <li class="me__adrs-list-item"><a href=""><img src="./images/svg/tg.svg" alt=""></a></li>
+                        </ul>
+                    </address>
+                </article>
+                <div class="me__container">
+                    <div class="me__img-container">
+                        <img src="./images/svg/line.svg" alt="" class="me__bg-img">
+                        <img src="./images/img/face.png" alt="face" class="me__main-img">
+                    </div>
+                    <div class="me__line-container">
+                        <div class="me__line"></div>
+                        <span class="me__line-text">scroll down</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__section skills" id="skills">
+            <div class="baba">
+                <header class="main__header-center">
+                    <h1 class="main__h1">skills</h1>
+                    <h2 class="main__h2">My Skills</h2>
+                    <p class="main__text">I am constantly learning and developing, expanding my professional and social
+                        skills.</p>
                 </header>
-                <address class="me__adrs">
-                    <p>Check out my</p>
-                    <ul class="me__adrs-list">
-                        <li class="me__adrs-list-item"><a href=""><img src="./images/svg/gh.svg" alt=""></a></li>
-                        <li class="me__adrs-list-item"><a href=""><img src="./images/svg/tg.svg" alt=""></a></li>
-                    </ul>
-                </address>
-            </article>
-            <div class="me__container">
-                <div class="me__img-container">
-                    <img src="./images/svg/line.svg" alt="" class="me__bg-img">
-                    <img src="./images/img/face.png" alt="face" class="me__main-img">
-                </div>
-                <div class="me__line-container">
-                    <div class="me__line"></div>
-                    <span class="me__line-text">scroll down</span>
+                <div class="skills__content">
+                    <article class="skills__article">
+                        <ul class="skills__list-skills">
+                            <li class="skills__list-item">HTML</li>
+                            <li class="skills__list-item">CSS</li>
+                            <li class="skills__list-item">JavaScript</li>
+                            <li class="skills__list-item">VS Code</li>
+                            <li class="skills__list-item">GIT</li>
+                            <li class="skills__list-item">Figma</li>
+                            <li class="skills__list-item">Python</li>
+                            <li class="skills__list-item">Rvlxjxf</li>
+                            <li class="skills__list-item">Ofgnmsdfg</li>
+                            <li class="skills__list-item">RGdD</li>
+                        </ul>
+                    </article>
+                    <article class="skills__article">
+                        <h3 class="skills__h3">Developer Skills</h3>
+                        <ul class="skills__d-list">
+                            <li class="skills__d-list-item">HTML<div class="skills__line"></div>
+                            </li>
+                            <li class="skills__d-list-item">CSS3<div class="skills__line"></div>
+                            </li>
+                            <li class="skills__d-list-item">JavaScript<div class="skills__line"></div>
+                            </li>
+                        </ul>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section class="main__section skills">
-            <header class="main__header-center">
-                <h1 class="main__h1">skills</h1>
-                <h2 class="main__h2">My Skills</h2>
-                <p class="main__text">I am constantly learning and developing, expanding my professional and social
-                    skills.</p>
-            </header>
-            <div class="skills__content">
-                <article class="skills__article">
-                    <ul class="skills__list-skills">
-                        <li class="skills__list-item">HTML</li>
-                        <li class="skills__list-item">CSS</li>
-                        <li class="skills__list-item">JavaScript</li>
-                        <li class="skills__list-item">VS Code</li>
-                        <li class="skills__list-item">GIT</li>
-                        <li class="skills__list-item">Figma</li>
-                        <li class="skills__list-item">Python</li>
-                        <li class="skills__list-item">Rvlxjxf</li>
-                        <li class="skills__list-item">Ofgnmsdfg</li>
-                        <li class="skills__list-item">RGdD</li>
-                    </ul>
-                </article>
-                <article class="skills__article">
-                    <h3 class="skills__h3">Developer Skills</h3>
-                    <ul class="skills__d-list">
-                        <li class="skills__d-list-item">HTML<div class="skills__line"></div>
-                        </li>
-                        <li class="skills__d-list-item">CSS3<div class="skills__line"></div>
-                        </li>
-                        <li class="skills__d-list-item">JavaScript<div class="skills__line"></div>
-                        </li>
-                    </ul>
-                </article>
+        <section class="main__section projects" id="projects">
+            <div class="baba">
+                <header class="main__header-left">
+                    <h1 class="main__h1">projects</h1>
+                    <h2 class="main__h2">My Portfolio</h2>
+                    <p class="main__text">My best works during my studies and participation in open web community
+                        projects.
+                    </p>
+                </header>
+                <ul class="projects__cards">
+                    <li class="projects__cards-item card-1 large">
+                        <article class="project__card">
+                            <header class="projects__card-header">
+                                <h3 class="projects__card-h3">category</h3>
+                                <p class="projects__card-text">Cool two-line headline</p>
+                            </header>
+                            <button class="projects__card-button">read more</button>
+                        </article>
+                    </li>
+                    <li class="projects__cards-item card-2 medium">
+                        <article class="project__card">
+                            <header class="projects__card-header">
+                                <h3 class="projects__card-h3">category</h3>
+                                <p class="projects__card-text">Cool two-line headline</p>
+                            </header>
+                            <button class="projects__card-button">read more</button>
+                        </article>
+                    </li>
+                    <li class="projects__cards-item card-3 medium">
+                        <article class="project__card">
+                            <header class="projects__card-header">
+                                <h3 class="projects__card-h3">category</h3>
+                                <p class="projects__card-text">Cool two-line headline</p>
+                            </header>
+                            <button class="projects__card-button">read more</button>
+                        </article>
+                    </li>
+                    <li class="projects__cards-item card-4 medium">
+                        <article class="project__card">
+                            <header class="projects__card-header">
+                                <h3 class="projects__card-h3">category</h3>
+                                <p class="projects__card-text">Cool two-line headline</p>
+                            </header>
+                            <button class="projects__card-button">read more</button>
+                        </article>
+                    </li>
+                    <li class="projects__cards-item card-5 medium">
+                        <article class="project__card">
+                            <header class="projects__card-header">
+                                <h3 class="projects__card-h3">category</h3>
+                                <p class="projects__card-text">Cool two-line headline</p>
+                            </header>
+                            <button class="projects__card-button">read more</button>
+                        </article>
+                    </li>
+                    <li class="projects__cards-item card-6 large">
+                        <article class="project__card">
+                            <header class="projects__card-header">
+                                <h3 class="projects__card-h3">category</h3>
+                                <p class="projects__card-text">Cool two-line headline</p>
+                            </header>
+                            <button class="projects__card-button">read more</button>
+                        </article>
+                    </li>
+                </ul>
             </div>
         </section>
 
-        <section class="main__section projects">
-            <header class="main__header-left">
-                <h1 class="main__h1">projects</h1>
-                <h2 class="main__h2">My Portfolio</h2>
-                <p class="main__text">My best works during my studies and participation in open web community projects.
-                </p>
-            </header>
-            <ul class="projects__cards">
-                <li class="projects__cards-item card-1 large">
-                    <article class="project__card">
-                        <header class="projects__card-header">
-                            <h3 class="projects__card-h3">category</h3>
-                            <p class="projects__card-text">Cool two-line headline</p>
+        <section class="main__section experience" id="experience">
+            <div class="baba">
+                <header class="main__header-center">
+                    <h1 class="main__h1">experience</h1>
+                    <h2 class="main__h2">Experience</h2>
+                    <p class="main__text">My professional journey in learning and self-development as a beginner web
+                        engineer</p>
+                </header>
+                <div class="experience__cards">
+                    <article class="exprerience__card">
+                        <header class="experience__header">
+                            <h3 class="exprerience__h3">SOME EXPERIENCE 1</h3>
+                            <p class="main__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum
+                                optio culpa sunt debitis quisquam eveniet mollitia libero nobis nesciunt.</p>
                         </header>
-                        <button class="projects__card-button">read more</button>
+                        <span class="main__accent year">2023</span>
                     </article>
-                </li>
-                <li class="projects__cards-item card-2 medium">
-                    <article class="project__card">
-                        <header class="projects__card-header">
-                            <h3 class="projects__card-h3">category</h3>
-                            <p class="projects__card-text">Cool two-line headline</p>
+                    <article class="exprerience__card">
+                        <header class="experience__header">
+                            <h3 class="exprerience__h3">SOME EXPERIENCE 1</h3>
+                            <p class="main__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum
+                                optio culpa sunt debitis quisquam eveniet mollitia libero nobis nesciunt.</p>
                         </header>
-                        <button class="projects__card-button">read more</button>
+                        <span class="main__accent year">2023</span>
                     </article>
-                </li>
-                <li class="projects__cards-item card-3 medium">
-                    <article class="project__card">
-                        <header class="projects__card-header">
-                            <h3 class="projects__card-h3">category</h3>
-                            <p class="projects__card-text">Cool two-line headline</p>
+                    <article class="exprerience__card">
+                        <header class="experience__header">
+                            <h3 class="exprerience__h3">SOME EXPERIENCE 1</h3>
+                            <p class="main__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum
+                                optio culpa sunt debitis quisquam eveniet mollitia libero nobis nesciunt.</p>
                         </header>
-                        <button class="projects__card-button">read more</button>
+                        <span class="main__accent year">2023</span>
                     </article>
-                </li>
-                <li class="projects__cards-item card-4 medium">
-                    <article class="project__card">
-                        <header class="projects__card-header">
-                            <h3 class="projects__card-h3">category</h3>
-                            <p class="projects__card-text">Cool two-line headline</p>
+                    <article class="exprerience__card">
+                        <header class="experience__header">
+                            <h3 class="exprerience__h3">SOME EXPERIENCE 1</h3>
+                            <p class="main__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum
+                                optio culpa sunt debitis quisquam eveniet mollitia libero nobis nesciunt.</p>
                         </header>
-                        <button class="projects__card-button">read more</button>
+                        <span class="main__accent year">2023</span>
                     </article>
-                </li>
-                <li class="projects__cards-item card-5 medium">
-                    <article class="project__card">
-                        <header class="projects__card-header">
-                            <h3 class="projects__card-h3">category</h3>
-                            <p class="projects__card-text">Cool two-line headline</p>
-                        </header>
-                        <button class="projects__card-button">read more</button>
-                    </article>
-                </li>
-                <li class="projects__cards-item card-6 large">
-                    <article class="project__card">
-                        <header class="projects__card-header">
-                            <h3 class="projects__card-h3">category</h3>
-                            <p class="projects__card-text">Cool two-line headline</p>
-                        </header>
-                        <button class="projects__card-button">read more</button>
-                    </article>
-                </li>
-            </ul>
-        </section>
-
-        <section class="main__section experience">
-            <header class="main__header-center">
-                <h1 class="main__h1">experience</h1>
-                <h2 class="main__h2">Experience</h2>
-                <p class="main__text">My professional journey in learning and self-development as a beginner web
-                    engineer</p>
-            </header>
-            <div class="experience__cards">
-                <article class="exprerience__card">
-                    <header class="experience__header">
-                        <h3 class="exprerience__h3">SOME EXPERIENCE 1</h3>
-                        <p class="main__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum
-                            optio culpa sunt debitis quisquam eveniet mollitia libero nobis nesciunt.</p>
-                    </header>
-                    <span class="main__accent year">2023</span>
-                </article>
-                <article class="exprerience__card">
-                    <header class="experience__header">
-                        <h3 class="exprerience__h3">SOME EXPERIENCE 1</h3>
-                        <p class="main__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum
-                            optio culpa sunt debitis quisquam eveniet mollitia libero nobis nesciunt.</p>
-                    </header>
-                    <span class="main__accent year">2023</span>
-                </article>
-                <article class="exprerience__card">
-                    <header class="experience__header">
-                        <h3 class="exprerience__h3">SOME EXPERIENCE 1</h3>
-                        <p class="main__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum
-                            optio culpa sunt debitis quisquam eveniet mollitia libero nobis nesciunt.</p>
-                    </header>
-                    <span class="main__accent year">2023</span>
-                </article>
-                <article class="exprerience__card">
-                    <header class="experience__header">
-                        <h3 class="exprerience__h3">SOME EXPERIENCE 1</h3>
-                        <p class="main__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum
-                            optio culpa sunt debitis quisquam eveniet mollitia libero nobis nesciunt.</p>
-                    </header>
-                    <span class="main__accent year">2023</span>
-                </article>
+                </div>
             </div>
         </section>
 
         <section class="main__section contacts">
-            <header class="main__header-left">
-                <h1 class="main__h1">contacts</h1>
-                <h2 class="main__h2">Contact With Me</h2>
-                <p class="main__text">If you are interested in cooperation, I will be glad to receive your proposals and
-                    work on joint projects.</p>
-            </header>
-            <div class="contacts__content">
-                <aside class="contacts__aside">
-                    <address>
-                        <ul class="contacts__list">
-                            <li class="contacts__list-item">
-                                <span class="contacts__span">Location</span>
-                                <p class="main__text">Moscow, Russia</p>
-                            </li>
-                            <li class="contacts__list-item">
-                                <span class="contacts__span">Email</span>
-                                <p class="main__text">john@example.com</p>
-                            </li>
-                            <li class="contacts__list-item">
-                                <span class="contacts__span">Phone</span>
-                                <p class="main__text">+7 987 123-45-60</p>
-                            </li>
-                        </ul>
-                    </address>
-                </aside>
-                <form action="" class="form">
-                    <div class="form__group">
-                        <label for="name" class="form__label">You Name</label>
-                        <input type="text" id="name" class="form__input" placeholder="Please introduce yourself"
-                            required minlength="3" />
-                        <span class="form__description">Minimum number of characters - 3</span>
-                    </div>
-                    <div class="form__group">
-                        <label for="email" class="form__label">Your Email</label>
-                        <input type="email" id="email" class="form__input" placeholder="Please enter your email address"
-                            required />
-                        <span class="form__description">Address format - test@example.com</span>
-                    </div>
-                    <div class="form__group">
-                        <label for="comment" class="form__label">Message</label>
-                        <textarea id="comment" name="comment" placeholder="Please enter your message" maxlength="500"
-                            class="form__comment"></textarea>
-                        <span class="form__description">Please enter your message</span>
-                    </div>
-                    <div>
-                        <button class="form__button">submit</button>
-                        <span>By clicking the submit button You confirm my consent to the processing of <a
-                                href="#">personal
-                                data</a></span>
-                    </div>
-                </form>
+            <div class="baba">
+                <header class="main__header-left">
+                    <h1 class="main__h1">contacts</h1>
+                    <h2 class="main__h2">Contact With Me</h2>
+                    <p class="main__text">If you are interested in cooperation, I will be glad to receive your proposals
+                        and
+                        work on joint projects.</p>
+                </header>
+                <div class="contacts__content">
+                    <aside class="contacts__aside">
+                        <address>
+                            <ul class="contacts__list">
+                                <li class="contacts__list-item">
+                                    <span class="contacts__span">Location</span>
+                                    <p class="main__text">Moscow, Russia</p>
+                                </li>
+                                <li class="contacts__list-item">
+                                    <span class="contacts__span">Email</span>
+                                    <p class="main__text">john@example.com</p>
+                                </li>
+                                <li class="contacts__list-item">
+                                    <span class="contacts__span">Phone</span>
+                                    <p class="main__text">+7 987 123-45-60</p>
+                                </li>
+                            </ul>
+                        </address>
+                    </aside>
+                    <form action="" class="contacts__form">
+                        <div class="contacts__form-container">
+                            <div class="contacts__form-group">
+                                <label for="name" class="contacts__label">You Name</label>
+                                <input type="text" id="name" class="contacts__input"
+                                    placeholder="Please introduce yourself" required minlength="3" />
+                                <span class="contacts__description">Minimum number of characters - 3</span>
+                            </div>
+                            <div class="contacts__form-group">
+                                <label for="email" class="contacts__label">Your Email</label>
+                                <input type="email" id="email" class="contacts__input"
+                                    placeholder="Please enter your email address" required />
+                                <span class="contacts__description">Address format - test@example.com</span>
+                            </div>
+                            <div class="contacts__form-group">
+                                <label for="comment" class="contacts__label">Message</label>
+                                <textarea id="comment" name="comment" placeholder="Please enter your message"
+                                    maxlength="500" class="contacts__comment"></textarea>
+                            </div>
+                            <div class="contacts__send">
+                                <button class="contacts__button">submit</button>
+                                <span class="contacts__send-span">By clicking the submit button You confirm my consent
+                                    to the processing of <a class="main__accent" href="#">personal
+                                        data</a></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <nav class="footer__nav">
-            <ul class="footer__list">
-                <li class="footer__list-item"><a href="#about-me">About Me</a></li>
-                <li class="footer__list-item"><a href="#skills">Skills</a></li>
-                <li class="footer__list-item"><a href="#projects">Projects</a></li>
-                <li class="footer__list-item"><a href="#experience">Experience</a></li>
-            </ul>
-        </nav>
-        <aside class="footer_aside">
-            <p class="footer__text-1">2025-2026 IT HEXLET</p>
-            <p class="footer__text-2">This project is a practical project for mastering the structure and style of a
-                web
-                page.</p>
-        </aside>
-        <button class="footer__button">Back to top</button>
+        <div class="baba">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#about-me">About Me</a></li>
+                    <li class="footer__list-item"><a href="#skills">Skills</a></li>
+                    <li class="footer__list-item"><a href="#projects">Projects</a></li>
+                    <li class="footer__list-item"><a href="#experience">Experience</a></li>
+                </ul>
+            </nav>
+            <aside class="footer_aside">
+                <p class="footer__text-1">2025-2026 IT HEXLET</p>
+                <p class="footer__text-2">This project is a practical project for mastering the structure and style of a
+                    web
+                    page.</p>
+            </aside>
+            <button class="footer__button">Back to top</button>
+        </div>
     </footer>
 </body>
 

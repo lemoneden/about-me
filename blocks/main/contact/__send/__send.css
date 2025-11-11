@@ -1,0 +1,6 @@
+.contacts__send {
+    grid-column: span 2;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}

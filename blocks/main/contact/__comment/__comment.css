@@ -1,0 +1,6 @@
+.contacts__comment {
+    padding: 20px;
+    color: var(--main-black-opacity);
+    border: 2px solid var(--main-black-opacity);
+    border-radius: 7px;
+}

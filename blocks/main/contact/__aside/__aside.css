@@ -1,0 +1,6 @@
+.contacts__aside {
+    background-color: var(--main-add-color);
+    border-radius: 10px;
+    padding: 40px;
+    width: 400px;
+}

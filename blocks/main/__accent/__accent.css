@@ -1,3 +1,4 @@
 .main__accent {
     color: var(--main-accent-color);
+    font-family: 'Bold';
 }

@@ -1,7 +1,7 @@
 .projects__cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 150px);
     gap: 20px;
     z-index: 0;
 }

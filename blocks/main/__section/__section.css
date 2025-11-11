@@ -1,5 +1,6 @@
 .main__section {
     padding-block: var(--main-margin-block);
+    width: 100%;
     /* background-color: var(--main-add-color); */
     /* max-width: var(--max-width); */
 }

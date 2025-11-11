@@ -1,7 +1,7 @@
 .header {
     background-color: var(--main-light-color);
     /* width: var(--header-width); */
-    width: 100%;
+    width: 1200px;
     position: fixed;
     display: flex;
     justify-content: space-between;

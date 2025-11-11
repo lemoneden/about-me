@@ -1,0 +1,7 @@
+.contacts__form-container {
+    display: grid;
+    row-gap: 30px;
+    column-gap: 20px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}

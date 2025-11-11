@@ -1,0 +1,9 @@
+.contacts__form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts__form-group:nth-child(3) {
+    grid-column: span 2;
+}

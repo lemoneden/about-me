@@ -1,0 +1,9 @@
+.contacts__input {
+    border: none;
+    color: var(--main-black-opacity);
+    font-size: var(--main-text-size);
+}
+
+.contacts__input:not(:last-child) {
+    border-block-end: 2px solid var(--main-black-opacity);
+}

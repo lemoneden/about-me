@@ -1,3 +1,4 @@
+@import url(./main/main.css);
 @import url(./body/body.css);
 @import url(./main/__h1/__h1.css);
 @import url(./main/__h2/__h2.css);
@@ -63,5 +64,23 @@
 @import url(./main/experience/__card/__card.css);
 @import url(./main/experience/__header/__header.css);
 @import url(./main/experience/year/year.css);
+
+/*contacts*/
+@import url(./main/contact/contact.css);
+@import url(./main/contact/__content/__content.css);
+@import url(./main/contact/__aside/__aside.css);
+@import url(./main/contact/__list/__list.css);
+@import url(./main/contact/__list-item/__list-item.css);
+@import url(./main/contact/__span/__span.css);
+@import url(./main/contact/__form-container/__form-container.css);
+@import url(./main/contact/___form-group/__form-group.css);
+@import url(./main/contact/__label/__label.css);
+@import url(./main/contact/__input/__input.css);
+@import url(./main/contact/__desctiption/__description.css);
+@import url(./main/contact/__comment/__comment.css);
+@import url(./main/contact/__form/__form.css);
+@import url(./main/contact/__send/__send.css);
+@import url(./main/contact/__button/__button.css);
+@import url(./main/contact/__send-span/__send-span.css);
 
 /*footer*/

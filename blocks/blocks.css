@@ -30,6 +30,10 @@
 @import url(./main/about-me/__line-container/__line-container.css);
 @import url(./main/about-me/__container/__container.css);
 
+@import url(./main/about-me/__adrs-list/__adrs-list.css);
+@import url(./main/about-me/__adrs/__adrs.css);
+@import url(./main/about-me/__adrs-list-item/__adrs-list-item.css);
+
 /*skills*/
 @import url(./main/skills/skills.css);
 @import url(./main/skills/__content/__content.css);
@@ -89,3 +93,5 @@
 @import url(./footer/__list-item/__list-item.css);
 @import url(./footer/__aside/__aside.css);
 @import url(./footer/__button/__button.css);
+@import url(./footer/__line/__line.css);
+@import url(./footer/__nav/__nav.css);

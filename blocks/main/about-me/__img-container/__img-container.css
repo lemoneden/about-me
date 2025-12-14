@@ -1,4 +1,12 @@
-.me__image-container {
+.me__img-container {
     position: relative;
-    margin: auto;
+    width: 400px;
+    height: 382px;
+}
+
+.me__main-img,
+.me__bg-img {
+    position: absolute;
+    top: 0;
+    right: 0;
 }

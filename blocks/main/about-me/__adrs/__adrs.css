@@ -1,0 +1,6 @@
+.me__adrs {
+    font-weight: bold;
+    display: flex;
+    gap: 38px;
+    align-items: center;
+}

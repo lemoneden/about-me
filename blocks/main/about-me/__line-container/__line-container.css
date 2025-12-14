@@ -1,3 +1,9 @@
 .me__line-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     transform: rotate(90deg);
+    position: fixed;
+    right: 0;
+    top: 220px;
 }

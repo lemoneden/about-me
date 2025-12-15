@@ -46,6 +46,7 @@
 @import url(./main/skills/__article/__article.css);
 
 /*projects*/
+@import url(./main/projects/projects.css);
 @import url(./main/projects/__card-button/__card-button.css);
 @import url(./main/projects/__card-h3/__card-h3.css);
 @import url(./main/projects/__card-header/__card-header.css);
@@ -68,6 +69,7 @@
 @import url(./main/experience/__card/__card.css);
 @import url(./main/experience/__header/__header.css);
 @import url(./main/experience/year/year.css);
+@import url(./main/experience/__h3/__h3.css);
 
 /*contacts*/
 @import url(./main/contact/contact.css);

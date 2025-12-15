@@ -2,7 +2,13 @@
     background-color: var(--main-accent-color);
     padding: var(--padding-button);
     border: none;
-    color: var(--main-light-color);
+    color: #fff;
+    /* color: var(--main-light-color); */
     border-radius: var(--border-radius-button);
     font-size: var(--text-size-nav);
+}
+
+.header__button>a {
+    text-decoration: none;
+    color: #fff;
 }

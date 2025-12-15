@@ -1,9 +1,29 @@
 .contacts__input {
     border: none;
-    color: var(--main-black-opacity);
+    color: var(--main-text-color);
     font-size: var(--main-text-size);
+    background-color: transparent;
+    border-radius: 5px;
+    padding-block: 5px;
 }
 
 .contacts__input:not(:last-child) {
     border-block-end: 2px solid var(--main-black-opacity);
+}
+
+.contacts__input::placeholder {
+    font-size: 16px;
+}
+
+.contacts__input:valid {
+    border: 1px solid #34c759;
+}
+
+.contacts__input:invalid:not(:placeholder-shown) {
+    border-color: #e74c3c;
+    outline: 1px solid rgb(231 76 60 / 0.4);
+}
+
+.contacts__input:focus {
+    outline: 3px solid var(--main-add-color);
 }

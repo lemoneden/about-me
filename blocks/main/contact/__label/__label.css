@@ -1,7 +1,7 @@
 .contacts__label {
     font-size: 20px;
     font-family: 'Bold';
-    color: var(--main-black-color);
+    color: var(--main-text-color);
 }
 
 .contacts__label:not(:last-child)::after {

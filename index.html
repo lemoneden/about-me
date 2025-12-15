@@ -7,6 +7,7 @@
     <meta name="author" content="Arina Shmodina">
     <meta name="description" content="About Me">
     <link rel="stylesheet" href="./pages/index.css">
+    <script src="./script.js" defer></script>
     <title>About Me</title>
 </head>
 
@@ -15,12 +16,13 @@
         <span class="me__line-text">scroll down</span>
         <div class="me__line"></div>
     </div>
-    <header class="header center">
+    <header class="header">
         <div class="baba header">
-            <div>
-                <input type="checkbox" name="theme" id="theme-switch">
-                <label for="theme-switch">🌙</label>
-            </div>
+            <!-- <div> -->
+                <!-- <input type="checkbox" name="theme" id="theme-switch"> -->
+                <!-- <label for="theme-switch">🌙</label> -->
+            <!-- </div> -->
+            <button id="theme-toggle" aria-label="Переключить тему" class="header__button">🌙 theme</button>
             <nav class="header__nav">
                 <ul class="header__list">
                     <li><a href="#about-me" class="header__list-item">About Me</a></li>
@@ -29,7 +31,7 @@
                     <li><a href="#experience" class="header__list-item">Experience</a></li>
                 </ul>
             </nav>
-            <button class="header__button">contact</button>
+            <button class="header__button"><a href="#contacts">contact</a></button>
         </div>
     </header>
 
@@ -52,9 +54,11 @@
                         <address class="me__adrs">
                             <p>Check out my</p>
                             <ul class="me__adrs-list">
-                                <li class="me__adrs-list-item"><a href="https://github.com/lemoneden"><img src="./images/svg/gh.svg" alt=""></a>
+                                <li class="me__adrs-list-item"><a href="https://github.com/lemoneden"><img
+                                            src="./images/svg/gh.svg" alt=""></a>
                                 </li>
-                                <li class="me__adrs-list-item"><a href="https://t.me/OrinaOrinys"><img src="./images/svg/tg.svg" alt=""></a>
+                                <li class="me__adrs-list-item"><a href="https://t.me/OrinaOrinys"><img
+                                            src="./images/svg/tg.svg" alt=""></a>
                                 </li>
                             </ul>
                         </address>
@@ -97,11 +101,11 @@
                     <article class="skills__article">
                         <h3 class="skills__h3">Developer Skills</h3>
                         <ul class="skills__d-list">
-                            <li class="skills__d-list-item">HTML<div class="skills__line"></div>
+                            <li class="skills__d-list-item">HTML<div class="skills__line line-1"></div>
                             </li>
-                            <li class="skills__d-list-item">CSS3<div class="skills__line"></div>
+                            <li class="skills__d-list-item">CSS3<div class="skills__line line-2"></div>
                             </li>
-                            <li class="skills__d-list-item">JavaScript<div class="skills__line"></div>
+                            <li class="skills__d-list-item">JavaScript<div class="skills__line line-3"></div>
                             </li>
                         </ul>
                     </article>
@@ -186,33 +190,33 @@
                         engineer</p>
                 </header>
                 <div class="experience__cards">
-                    <article class="exprerience__card">
+                    <article class="experience__card">
                         <header class="experience__header">
-                            <h3 class="exprerience__h3">SOME EXPERIENCE 1</h3>
+                            <h3 class="experience__h3">SOME EXPERIENCE 1</h3>
                             <p class="main__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum
                                 optio culpa sunt debitis quisquam eveniet mollitia libero nobis nesciunt.</p>
                         </header>
                         <span class="main__accent year">2023</span>
                     </article>
-                    <article class="exprerience__card">
+                    <article class="experience__card">
                         <header class="experience__header">
-                            <h3 class="exprerience__h3">SOME EXPERIENCE 1</h3>
+                            <h3 class="experience__h3">SOME EXPERIENCE 1</h3>
                             <p class="main__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum
                                 optio culpa sunt debitis quisquam eveniet mollitia libero nobis nesciunt.</p>
                         </header>
                         <span class="main__accent year">2023</span>
                     </article>
-                    <article class="exprerience__card">
+                    <article class="experience__card">
                         <header class="experience__header">
-                            <h3 class="exprerience__h3">SOME EXPERIENCE 1</h3>
+                            <h3 class="experience__h3">SOME EXPERIENCE 1</h3>
                             <p class="main__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum
                                 optio culpa sunt debitis quisquam eveniet mollitia libero nobis nesciunt.</p>
                         </header>
                         <span class="main__accent year">2023</span>
                     </article>
-                    <article class="exprerience__card">
+                    <article class="experience__card">
                         <header class="experience__header">
-                            <h3 class="exprerience__h3">SOME EXPERIENCE 1</h3>
+                            <h3 class="experience__h3">SOME EXPERIENCE 1</h3>
                             <p class="main__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nostrum
                                 optio culpa sunt debitis quisquam eveniet mollitia libero nobis nesciunt.</p>
                         </header>
@@ -222,7 +226,7 @@
             </div>
         </section>
 
-        <section class="main__section contacts">
+        <section class="main__section contacts" id="contacts">
             <div class="baba">
                 <header class="main__header-left">
                     <h1 class="main__h1">contacts</h1>
@@ -253,7 +257,7 @@
                     <form action="" class="contacts__form">
                         <div class="contacts__form-container">
                             <div class="contacts__form-group">
-                                <label for="name" class="contacts__label">You Name</label>
+                                <label for="name" class="contacts__label">Your Name</label>
                                 <input type="text" id="name" class="contacts__input"
                                     placeholder="Please introduce yourself" required minlength="3" />
                                 <span class="contacts__description">Minimum number of characters - 3</span>

@@ -2,4 +2,5 @@
     font-size: var(--main-h2-size);
     font-family: 'Bold';
     margin-block-end: var(--main-h2-margin);
+    color: var(--main-text-color);
 }

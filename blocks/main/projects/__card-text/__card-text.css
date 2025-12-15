@@ -1,5 +1,5 @@
 .projects__card-text {
-    color: var(--main-light-color);
+    color: var(--main-swap-text-color);
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: capitalize;

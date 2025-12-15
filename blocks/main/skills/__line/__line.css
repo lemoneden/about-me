@@ -3,7 +3,25 @@
     height: 5px;
     border-radius: 5px;
     /* background: linear-gradient(to right, black, white); */
+    /* background: linear-gradient(to right,
+            var(--main-accent-swap) 0%, var(--main-accent-swap) 50%,
+            #fff 50%, #fff 100%); */
+}
+
+.line-1 {
     background: linear-gradient(to right,
-            #000 0%, #000 50%,
-            #fff 50%, #fff 100%);
+            var(--main-accent-swap) 0%, var(--main-accent-swap) 80%,
+            #fff 80%, #fff 100%);
+}
+
+.line-2 {
+        background: linear-gradient(to right,
+            var(--main-accent-swap) 0%, var(--main-accent-swap) 60%,
+            #fff 60%, #fff 100%);
+}
+
+.line-3 {
+        background: linear-gradient(to right,
+            var(--main-accent-swap) 0%, var(--main-accent-swap) 30%,
+            #fff 30%, #fff 100%);
 }

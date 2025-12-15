@@ -3,4 +3,5 @@
     display: flex;
     gap: 38px;
     align-items: center;
+    color: var(--main-text-color);
 }

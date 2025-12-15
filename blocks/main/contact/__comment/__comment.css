@@ -1,6 +1,18 @@
 .contacts__comment {
     padding: 20px;
-    color: var(--main-black-opacity);
+    background-color: transparent;
+    /* color: var(--main-black-opacity); */
+    color: var(--main-text-color);
     border: 2px solid var(--main-black-opacity);
     border-radius: 7px;
+    resize: vertical;
+}
+
+.contacts__comment::placeholder {
+    font-size: 16px;
+    font-family: 'Inter-Regular';
+}
+
+.contacts__comment:focus {
+    outline: 3px solid var(--main-add-color);
 }

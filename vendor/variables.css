@@ -9,7 +9,10 @@
     --main-black-color: #252525;
     --main-black-opacity: rgb(27 27 27 / 25%);
     --main-accent-swap: #1B1B1B;
-    
+    --main-swap-text-color: #E1E1E1;
+    --main-swap-color: #303030;
+
+
     --max-width: 1200px;
     --main-gap: clamp(0.625rem, -0.057rem + 3.41vw, 2.5rem);
     --main-padding: clamp(3.75rem, 2.386rem + 6.82vw, 7.5rem);
@@ -33,4 +36,47 @@
 }
 
 /*dark*/
+[data-theme="dark"] {
+    /*main*/
+    --main-light-color: var(--main-swap-color);
+    --main-add-color: var(--main-black-color);
+    --main-text-color: var(--main-swap-text-color);
+    --main-accent-swap: var(--main-accent-color);
+    --main-black-opacity: #FFFFFF40;
 
+    /*about-me*/
+    .me__adrs-list-item {
+        background-color: var(--main-accent-color);
+        border-color: var(--main-accent-color);
+    }
+
+    /*skills*/
+    .skills__list-item {
+        background-color: var(--main-swap-color);
+    }
+
+    /*projects*/
+    .project__card {
+        border: 1px solid #FFFFFF40;
+    }
+
+    /*experience*/
+    .experience__card {
+        border: 1px solid #FFFFFF40;
+    }
+
+    /*contacts*/
+    .contacts__send-span {
+        color: var(--main-swap-text-color);
+    }
+
+    .contacts__input:focus,
+    .contacts__comment:focus {
+        outline: 3px solid var(--main-accent-color);
+    }
+
+    /*footer*/
+    .footer__button {
+        color: var(--main-accent-color);
+    }
+}

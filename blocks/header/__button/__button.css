@@ -8,12 +8,6 @@
     font-size: var(--text-size-nav);
 }
 
-#theme-toggle {
-    background-color: transparent;
-    color: var(--main-text-color);
-    padding-inline: 0;
-}
-
 .header__button>a {
     text-decoration: none;
     color: #fff;
@@ -26,4 +20,16 @@
 
 .header__button:active {
     animation: var(--animation);
+}
+
+#theme-toggle {
+    background-color: transparent;
+    color: var(--main-text-color);
+    padding-inline: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+#theme-toggle:hover {
+    transform: scale(1.1);
 }

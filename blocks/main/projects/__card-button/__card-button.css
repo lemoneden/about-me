@@ -6,4 +6,17 @@
     color: #000;
     font-size: 20px;
     width: 130px;
+    display: inline-block;
+    transition: transform .3s ease-out, background .5s ease;
+}
+
+.projects__card-button:hover {
+    background-color: var(--main-add-color);
+    color: var(--main-text-color);
+    cursor: pointer;
+}
+
+.projects__card-button:active {
+    background-color: var(--main-add-color);
+    animation: var(--animation);
 }

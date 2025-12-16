@@ -8,7 +8,22 @@
     font-size: var(--text-size-nav);
 }
 
+#theme-toggle {
+    background-color: transparent;
+    color: var(--main-text-color);
+    padding-inline: 0;
+}
+
 .header__button>a {
     text-decoration: none;
     color: #fff;
+}
+
+.header__button:hover {
+    transition: all .3s ease;
+    background-color: var(--main-accent-color-hover);
+}
+
+.header__button:active {
+    animation: var(--animation);
 }

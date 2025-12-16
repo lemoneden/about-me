@@ -1,9 +1,24 @@
+@keyframes compression {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.92);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 /*light*/
 
 :root {
     --main-light-color: #fff;
     --main-text-color: #1B1B1B;
     --main-accent-color: #1664EA;
+    --main-accent-color-hover: #155dd8;
     --main-light-text-color: #f5f5f5;
     --main-add-color: #ffda74;
     --main-black-color: #252525;
@@ -33,6 +48,8 @@
     /*button*/
     --padding-button: clamp(0.313rem, 0.108rem + 1.02vw, 0.875rem);
     --border-radius-button: 5px;
+
+    --animation: compression 0.2s ease;
 }
 
 /*dark*/
@@ -58,6 +75,14 @@
     /*projects*/
     .project__card {
         border: 1px solid #FFFFFF40;
+    }
+
+    .project__card:hover {
+        border-color: var(--main-accent-color);
+    }
+
+    .projects__card-button:hover {
+        background-color: var(--main-accent-color);
     }
 
     /*experience*/

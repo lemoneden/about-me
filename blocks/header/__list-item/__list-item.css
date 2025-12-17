@@ -3,7 +3,7 @@
     color: var(--main-text-color);
     font-size: var(--text-size-nav);
     display: inline-block; /* Нужно для transform */
-    transition: transform 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 /* .header__list-item:hover {

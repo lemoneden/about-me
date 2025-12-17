@@ -6,6 +6,8 @@
     /* color: var(--main-light-color); */
     border-radius: var(--border-radius-button);
     font-size: var(--text-size-nav);
+    display: inline-block;
+    transition: all .3s ease;
 }
 
 .header__button>a {
@@ -14,7 +16,6 @@
 }
 
 .header__button:hover {
-    transition: all .3s ease;
     background-color: var(--main-accent-color-hover);
 }
 

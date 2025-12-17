@@ -6,9 +6,9 @@
     transition: transform 0.2s ease;
 }
 
-.header__list-item:hover {
+/* .header__list-item:hover {
     transform: scale(1.1);
-}
+} */
 
 .header__list-item:active {
     animation: var(--animation);

@@ -9,3 +9,13 @@
 .header {
     width: 1200px;
 } */
+
+#theme-toggle:hover,
+.header__list-item:hover,
+.contacts__list-item:hover,
+.footer__list-item:hover {
+    transform: var(--scale);
+    background-image: var(--lighting-bg);
+    box-shadow: var(--line-shadow);
+    border-radius: 3px;
+}

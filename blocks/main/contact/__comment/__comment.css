@@ -6,6 +6,7 @@
     border: 2px solid var(--main-black-opacity);
     border-radius: 7px;
     resize: vertical;
+    transition: all .3s ease;
 }
 
 .contacts__comment::placeholder {

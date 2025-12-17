@@ -9,10 +9,6 @@
     transition: all .2s ease;
 }
 
-.footer__list-item:hover {
-    transform: scale(1.1);
-}
-
 .footer__list-item:active {
     animation: var(--animation);
 }

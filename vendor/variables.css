@@ -12,6 +12,40 @@
     }
 }
 
+@keyframes swing {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(3deg) ;
+    }
+
+    75% {
+        transform: rotate(-3deg) ;
+    }
+
+    /* 0%,
+    100% {
+        transform: rotate(-2deg);
+    }
+
+    50% {
+        transform: rotate(2deg);
+    } */
+}
+
+@keyframes pulse {
+    0%, 100% {
+    }
+    
+    50% {
+        transform: var(--scale);
+    }
+}
+
 /*light*/
 
 :root {
@@ -49,7 +83,13 @@
     --padding-button: clamp(0.313rem, 0.108rem + 1.02vw, 0.875rem);
     --border-radius-button: 5px;
 
-    --animation: compression 0.2s ease;
+    --animation: compression 0.1s ease;
+    --animation-swing: swing 2s ease-in-out infinite;
+    --animation-pulse: pulse 3s ease-in-out infinite;
+    --scale: scale(1.1);
+
+    --line-shadow: 0 0 0 5px rgba(255, 255, 255, 0.2);
+    --lighting-bg: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, .2));
 }
 
 /*dark*/
@@ -74,11 +114,12 @@
 
     /*projects*/
     .project__card {
-        border: 1px solid #FFFFFF40;
+        box-shadow: 0 0 0 1px #FFFFFF40;
     }
 
     .project__card:hover {
         border-color: var(--main-accent-color);
+        box-shadow: none;
     }
 
     .projects__card-button:hover {

@@ -1,3 +1,4 @@
 .me__main-img {
     z-index: 2;
+    animation: var(--animation-pulse);
 }

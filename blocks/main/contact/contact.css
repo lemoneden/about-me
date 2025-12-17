@@ -3,3 +3,8 @@
     flex-direction: column;
     background-color: var(--main-light-color);
 }
+
+.contacts__input:hover,
+.contacts__comment:hover {
+    transform: var(--scale);
+}

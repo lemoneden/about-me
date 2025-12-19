@@ -18,7 +18,7 @@
 
 1.  **Клонируйте репозиторий:**
     ```bash
-    git clone [https://github.com/<your-username>/<repo-name>](https://github.com/lemoneden/about-me.git
+    git clone https://github.com/lemoneden/about-me.git
     ```
 2.  **Перейдите в папку проекта:**
     ```bash
